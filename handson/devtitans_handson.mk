@@ -6,3 +6,9 @@ PRODUCT_NAME := devtitans_handson
 PRODUCT_DEVICE := handson
 PRODUCT_BRAND := HandsonBrand
 PRODUCT_MODEL := HandsonModel
+
+# Cliente de Linha de Comando para o Serviço Smartlamp
+PRODUCT_PACKAGES += smartlamp_service_client
+
+# App Privilegiado de Teste do Serviço Smartlamp
+PRODUCT_PACKAGES += SmartlampTestApp

@@ -1,0 +1,9 @@
+cc_binary {
+    name: "smartunlock_service_client",
+    srcs: ["smartunlock_service_client.cpp"],
+    vendor: true,
+    shared_libs: [
+        "libbinder_ndk",
+        "devtitans.smartunlock-V1-ndk",
+    ]
+}
