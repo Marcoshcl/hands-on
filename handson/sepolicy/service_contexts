@@ -1,0 +1,2 @@
+# Define o rótulo do serviço AIDL smartunlock
+devtitans.smartlamp.ISmartunlock/default  u:object_r:smartunlock_service:s0

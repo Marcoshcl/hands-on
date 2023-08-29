@@ -1,0 +1,2 @@
+# Define o rótulo do daemon smartunlock
+/vendor/bin/hw/devtitans.smartunlock-service  u:object_r:smartunlock_daemon_exec:s0
